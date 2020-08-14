@@ -1,0 +1,90 @@
+
+img {
+  max-width: 50%;
+  height: auto;
+}
+
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  max-width: 600px;
+}
+
+#title {
+  font-family: 'alataregular', Arial, sans-serif;
+  font-weight:bold;
+  font-style:normal;
+  font-size: 7vh;
+  line-height: 1cm;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  text-align: left;
+  color:red;
+  text-shadow: 6px 6px pink;
+}
+
+#img-div {
+  text-align: center;
+
+}
+
+#img-caption {
+  font-family: 'montserratmedium_italic', Arial, sans-serif;
+  font-size: 3vh;
+  padding-top: 5%;
+  max-width: 100%;
+  text-align: left;
+  color:red;
+
+}
+
+#tribute-info {
+  font-family: 'nunitoregular', Arial, sans-serif;
+  padding-top: 10%;
+  width: 90%;
+  max-width: 900px;
+  padding: 5%;
+  text-align: left;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  background: linear-gradient(75deg, pink, white, pink);
+
+}
+
+#tribute-link {
+  font-family: 'nunitoregular', Arial, sans-serif;
+  font-size: 2vh;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  max-width: 100%;
+  text-align: left;
+  color: black;
+}
+
+@font-face {
+    font-family: 'alataregular';
+    src: url('fonts/alata-regular-webfont.woff2') format('woff2'),
+         url('fonts/alata-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserratmedium_italic';
+    src: url('fonts/montserrat-mediumitalic-webfont.woff2') format('woff2'),
+         url('fonts/montserrat-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'nunitoregular';
+    src: url('fonts/nunito-regular-webfont.woff2') format('woff2'),
+         url('fonts/nunito-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
